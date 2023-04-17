@@ -1,0 +1,38 @@
+.social {
+    top: 1px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #1a202c;
+    height: auto;
+    padding: 15px 20px;
+    color: white;
+}
+
+.social .lg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5em;
+    margin-right: 500px;
+}
+
+.social .sc {
+    margin-right: 350px;
+}
+
+.social .sc svg {
+    margin: 0px 5px;
+}
+
+.social .sc svg:hover {
+    cursor: pointer;
+}
+
+.social .right {
+    margin-left: 15px;
+    color: #6c757d;
+}

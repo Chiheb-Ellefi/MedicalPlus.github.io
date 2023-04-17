@@ -1,0 +1,68 @@
+.logo {
+    grid-area: l;
+    font-size: 2em;
+    font-weight: 500;
+    color: #1a202c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px 10px 30px;
+}
+
+nav ul {
+    grid-area: u;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+    margin: 20px 0px 10px 0px;
+    padding-right: 0px;
+}
+
+nav ul li {
+    padding: 0 10px 0 10px;
+    margin-right: 50px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+nav ul li .btn {
+    color: #343a40;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+nav ul li .btn:hover {
+    color: #7b2cbf;
+}
+
+nav ul li .btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7b2cbf;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+nav ul li .btn:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+#login {
+    background-color: #7b2cbf;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    margin-right: 0px;
+}

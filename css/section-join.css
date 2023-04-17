@@ -1,0 +1,61 @@
+.join {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.join .newsletter {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #ffb330;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.join .joinus {
+    color: #1a202c;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.join .jointext {
+    color: #6c757d;
+    font-size: 1.1em;
+    margin-bottom: 100px;
+}
+
+.join .mailus {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+}
+
+.join .mailus #mail {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    border: none;
+    padding: 25px;
+    font-size: 1.1em;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.join .mailus .sub {
+    border: none;
+    background-color: #7b2cbf;
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 1.1em;
+    padding: 25px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.join .mailus .sub:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1a202c;
+    color: white;
+    justify-content: space-around;
+    padding: 20px 0px 30px 0px;
+}
+
+.footer .spot {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .spot .heading {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.footer .spot .pr {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #6c757d;
+    margin-top: 0;
+}
+
+.footer .spot .pr:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

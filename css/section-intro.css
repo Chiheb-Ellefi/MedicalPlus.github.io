@@ -1,0 +1,186 @@
+.intro {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-image: url("../assets/medium-shot-patient-doctor-clinic.jpg");
+}
+
+.intro .slogan {
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    font-size: 3em;
+    font-weight: 800;
+    color: #000000;
+    width: 600px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro .pslogan {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #ffffff;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro .card {
+    position: relative;
+    width: 900px;
+    height: auto;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding: 10px 20px 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+/* -------bar------- */
+
+.intro .card .bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro .card .bar p {
+    font-size: 1em;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0;
+    color: #343a40;
+}
+
+.intro .card .bar button svg {
+    padding-right: 2px;
+}
+
+.intro .card .bar button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: .9em;
+    font-weight: 500;
+    background-color: transparent;
+    border: 0;
+    color: #6c757d;
+}
+
+.intro .card .bar button:hover {
+    color: #7b2cbf;
+    cursor: pointer;
+}
+
+.intro .card .card_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.intro .card .card_body .location {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px 40px 25px 40px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.intro .card .card_body .location label {
+    padding: 10px;
+    color: #6c757d;
+    font-size: .9em;
+}
+
+.intro .card .card_body .location select {
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.intro .card .card_body .date {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px 40px 25px 40px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.intro .card .card_body .date label {
+    padding: 10px;
+    color: #6c757d;
+    font-size: .9em;
+}
+
+.intro .card .card_body .date input {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.intro .card .card_body .who {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 25px 40px 25px 40px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.intro .card .card_body .who svg {
+    align-self: center;
+}
+
+.intro .card .card_body .who label {
+    padding: 10px;
+    color: #6c757d;
+    font-size: .9em;
+    text-align: center;
+}
+
+.intro .card .card_body .who select {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.intro .card .card_body .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #7b2cbf;
+    color: white;
+    padding: 20px 30px 20px 30px;
+}
+
+.intro .card .card_body .search:hover {
+    cursor: pointer;
+}
