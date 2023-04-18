@@ -79,6 +79,7 @@
 }
 
 .work .start {
+    text-decoration: none;
     position: relative;
     background-color: #7b2cbf;
     font-size: 1.5em;

@@ -12,12 +12,14 @@
     color: white;
 }
 
-.social .lg {
+.social .lg a {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 1.5em;
     margin-right: 500px;
+    text-decoration: none;
+    color: white;
 }
 
 .social .sc {
@@ -30,6 +32,11 @@
 
 .social .sc svg:hover {
     cursor: pointer;
+}
+
+.social .sc a {
+    text-decoration: none;
+    color: white;
 }
 
 .social .right {
