@@ -1,12 +1,23 @@
 .logo {
     grid-area: l;
-    font-size: 2em;
-    font-weight: 500;
-    color: #1a202c;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 10px 10px 30px;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.logo .back {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: #7b2cbf;
+    border-radius: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 nav ul {
@@ -22,7 +33,7 @@ nav ul {
 nav ul li {
     padding: 0 10px 0 10px;
     margin-right: 50px;
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: 500;
 }
 

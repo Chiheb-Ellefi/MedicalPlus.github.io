@@ -2,13 +2,13 @@
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     overflow-x: scroll;
     /* for Internet Explorer, Edge */
     scrollbar-width: none;
     /* for Firefox */
     overflow-y: scroll;
     align-content: center;
+    margin-left: 50px;
 }
 
 .bar ul li {
@@ -24,6 +24,7 @@
     font-weight: 500;
     font-size: 1.1em;
     box-shadow: none;
+    margin-left: 30px;
 }
 
 .bar ul li button:hover {
@@ -44,15 +45,21 @@
     flex-direction: column;
 }
 
+.cards .two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 45%;
     height: 250px;
     justify-content: space-around;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin-left: 100px;
     padding: 15px 0px 0px 15px;
     overflow: hidden;
     margin-top: 20px;
@@ -148,7 +155,7 @@
     width: 150px;
     height: 80px;
     float: right;
-    margin-left: 542px;
+    margin-left: 521px;
     border-radius: 10px 0px 10px 0px;
     border: none;
     background-color: #7b2cbf;
