@@ -170,15 +170,15 @@
 }
 
 .intro .card .card_body .search a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-decoration: none;
     color: white;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .intro .card .card_body .search {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-self: center;
     border: none;
     border-radius: 5px;

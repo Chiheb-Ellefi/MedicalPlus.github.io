@@ -1,0 +1,53 @@
+.navside ul {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.navside ul li {
+    color: #7b2cbf;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.navside ul li .text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navside ul li .text .see {
+    margin-left: 40px;
+    color: #6c757d;
+    font-size: .5em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navside ul .live {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+    align-content: center;
+    padding: 10px 0px 0px 100px;
+    margin-bottom: 50px;
+}
+
+.navside ul .live img {
+    margin-right: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 180px;
+    border-radius: 10px;
+    border-radius: 10px;
+}

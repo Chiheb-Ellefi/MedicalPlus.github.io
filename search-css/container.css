@@ -1,0 +1,162 @@
+.bar ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+    align-content: center;
+}
+
+.bar ul li {
+    list-style-type: none;
+}
+
+.bar ul li button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #7b2cbf;
+    color: #7b2cbf;
+    font-weight: 500;
+    font-size: 1.1em;
+    box-shadow: none;
+}
+
+.bar ul li button:hover {
+    cursor: pointer;
+}
+
+.bar ul li #all {
+    color: #ffffff;
+    background-color: #7b2cbf;
+}
+
+.cards {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 250px;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-left: 100px;
+    padding: 15px 0px 0px 15px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.card .id {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.card .id .fav {
+    margin-left: 250px;
+    color: #6c757d;
+}
+
+.card .id img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.card .id .text {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.card .id .text .name {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.card .id .text .job {
+    font-size: 1.1em;
+    letter-spacing: 1;
+    color: #7b2cbf;
+}
+
+.card .id .text .experience {
+    margin-top: 10px;
+    letter-spacing: 1;
+    color: #6c757d;
+}
+
+.card .id .text .numbers {
+    margin-top: 8px;
+    letter-spacing: 1;
+    color: #6c757d;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card .id .text .numbers .chart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.card .id .text .numbers .story {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card .id .text .numbers svg {
+    margin-right: 5px;
+}
+
+.card .available {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.card .available .next {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #7b2cbf;
+}
+
+.card .available .time {
+    margin-top: 8px;
+    letter-spacing: 1;
+    color: #6c757d;
+}
+
+.card .book {
+    width: 150px;
+    height: 80px;
+    float: right;
+    margin-left: 542px;
+    border-radius: 10px 0px 10px 0px;
+    border: none;
+    background-color: #7b2cbf;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.card .book:hover {
+    cursor: pointer;
+}

@@ -28,3 +28,15 @@ function sideScroll(element, direction, speed, distance, step) {
         }
     }, speed);
 }
+
+
+
+function btnscolor(clicked) {
+    document.getElementById(clicked).style.color = '#ffffff'
+    document.getElementById(clicked).style.backgroundColor = '#7b2cbf'
+}
+
+
+function svgcolor(clicked) {
+    document.getElementById(clicked).style.color = '#ef233c'
+}

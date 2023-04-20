@@ -1,0 +1,17 @@
+.navside {
+    grid-row: 1/2;
+    width: 300px;
+    height: auto;
+    grid-column: 1/4;
+    position: fixed;
+}
+
+.container {
+    grid-row: 1/2;
+    grid-column: 3/13;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
