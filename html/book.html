@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../book-css/style.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../book-css/section.css">
+    <link rel="stylesheet" href="../book-css/about.css">
+    <link rel="stylesheet" href="../book-css/ul.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <nav>
+            <div class="logo">
+                <div class="back"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="white" d="M10 3.25A1.75 1.75 0 0 0 8.25 5v3.25H5A1.75 1.75 0 0 0 3.25 10v4c0 .966.784 1.75 1.75 1.75h3.25V19c0 .966.784 1.75 1.75 1.75h4A1.75 1.75 0 0 0 15.75 19v-3.25H19A1.75 1.75 0 0 0 20.75 14v-4A1.75 1.75 0 0 0 19 8.25h-3.25V5A1.75 1.75 0 0 0 14 3.25h-4Z"/></svg></div>
+                <div class="text">Doctor Plus</div>
+            </div>
+            <ul>
+                <li><a href="../index.html" class="btn">Home</a></li>
+                <li><a href="#" class="btn">Services</a></li>
+                <li><a href="#" class="btn">About us</a></li>
+                <li><a href="#contact" class="btn">Contact</a></li>
+                <li><a href="login.html" target="_blank" id="login">Login</a></li>
+            </ul>
+        </nav>
+        <section>
+            <p class="title">Doctor Details</p>
+            <div class="doctor">
+                <img src="../assets/doc4.png" alt="">
+                <div class="info">
+                    <div class="name">Dr.Patty Brito</div>
+                    <div class="job">Dentist Specialist</div>
+                    <div class="time">Patient time : 8:00AM-5:00PM</div>
+                    <div class="review">
+                        <div class="rating">Rating: <span>3.6/4</span></div>
+                        <div class="price"><span>$</span>28.00/hr</div>
+                    </div>
+                    <button class="book">Book Now</button>
+
+                </div>
+            </div>
+            <div class="about">
+                <div class="details">
+                    <div class="infor">
+                        <div class="tle">Patient</div>
+                        <div class="num">120+</div>
+                    </div>
+                    <div class="blnk"></div>
+                    <div class="infor">
+                        <div class="tle">Experience</div>
+                        <div class="num">5 years</div>
+                    </div>
+                    <div class="blnk"></div>
+                    <div class="infor">
+                        <div class="tle">Rating</div>
+                        <div class="num">3.6</div>
+                    </div>
+                </div>
+
+
+                <ul class="tabs" role="tablist">
+                    <li>
+                        <input type="radio" name="tabs" id="tab1" checked />
+                        <label for="tab1" role="tab" aria-selected="true" aria-controls="panel1" tabindex="0">About</label>
+                        <div id="tab-content1" class="tab-content" role="tabpanel" aria-labelledby="description" aria-hidden="false">
+                            <p class="doc">Dentist Specialist Doctor </p>
+                            <p>Below are some common illnesses and problems we may deal with from time to time.Many of them can be managed at home . But sometimes they can progress or change , and then it's best if they are adressed by a doctor. If you aren't
+                                what to do , call your doctor. He or she can tell you if you should make an appointement .
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="tabs" id="tab2" />
+                        <label for="tab2" role="tab" aria-selected="false" aria-controls="panel2" tabindex="0">Address</label>
+                        <div id="tab-content2" class="tab-content" role="tabpanel" aria-labelledby="specification" aria-hidden="true">
+                            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="tabs" id="tab3" />
+                        <label for="tab3" role="tab" aria-selected="false" aria-controls="panel3" tabindex="0">Ratings </label>
+                        <div id="tab-content3" class="tab-content" role="tabpanel" aria-labelledby="rating" aria-hidden="true">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque explicabo dolore quidem tempore unde. Aperiam praesentium quia animi voluptates officiis facilis non provident sint itaque deserunt fugit repellat, quisquam
+                                in?
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

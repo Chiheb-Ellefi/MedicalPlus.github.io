@@ -1,0 +1,105 @@
+* {
+    color: #343a40;
+}
+
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+section .doctor {
+    width: 70%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px 0 0 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+section .doctor img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+section .doctor .info {
+    display: flex;
+    flex-direction: column;
+}
+
+section .doctor .info .name {
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section .doctor .info .job {
+    font-size: 1.2em;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+section .doctor .info .time {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+section .doctor .info .review {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+section .doctor .info .review .price {
+    color: #6c757d;
+    margin-left: 100px;
+}
+
+section .doctor .info .review .price span {
+    color: #246bfd;
+    font-weight: 500;
+}
+
+section .doctor .info .book {
+    background-color: #246bfd;
+    height: 80px;
+    width: 240px;
+    border: none;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 535px;
+    border-radius: 10px 0px 10px 0px;
+    color: white;
+}
+
+section .doctor .info .book:hover {
+    cursor: pointer;
+}
+
+section .about {
+    width: 100%;
+    height: 100%;
+}
+
+section .about .details {
+    width: 70%;
+    height: 100px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+section .about .tabs {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}

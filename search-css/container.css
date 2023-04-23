@@ -1,5 +1,4 @@
 .bar ul {
-    margin-top: 20px;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
@@ -63,6 +62,7 @@
     padding: 15px 0px 0px 15px;
     overflow: hidden;
     margin-top: 20px;
+    background-color: #ffffff;
 }
 
 .card .id {
@@ -155,13 +155,14 @@
     width: 150px;
     height: 80px;
     float: right;
-    margin-left: 521px;
+    margin-left: 527px;
     border-radius: 10px 0px 10px 0px;
     border: none;
     background-color: #246bfd;
     color: white;
     font-size: 1.2em;
     font-weight: 500;
+    justify-content: center;
 }
 
 .card .book:hover {

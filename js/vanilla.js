@@ -33,10 +33,17 @@ function sideScroll(element, direction, speed, distance, step) {
 
 function btnscolor(clicked) {
     document.getElementById(clicked).style.color = '#ffffff'
-    document.getElementById(clicked).style.backgroundColor = '#7b2cbf'
+    document.getElementById(clicked).style.backgroundColor = '#246bfd'
+    document.getElementById(clicked).style.border = 'none'
 }
 
 
 function svgcolor(clicked) {
     document.getElementById(clicked).style.color = '#ef233c'
+}
+
+function clickable(clicked) {
+    document.getElementById(clicked).onclick = function() {
+        location.href = "book.html";
+    };
 }
