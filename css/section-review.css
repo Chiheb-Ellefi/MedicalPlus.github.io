@@ -39,6 +39,11 @@
     align-content: center;
 }
 
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
 .review .wrap .card {
     flex: 0 0 auto;
     z-index: 1;

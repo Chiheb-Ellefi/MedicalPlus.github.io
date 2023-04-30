@@ -29,6 +29,7 @@ section .doctor img {
 section .doctor .info {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 section .doctor .info .name {
@@ -65,14 +66,21 @@ section .doctor .info .review .price span {
     font-weight: 500;
 }
 
+section .doctor .info .btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: end;
+}
+
 section .doctor .info .book {
     background-color: #246bfd;
-    height: 80px;
+    height: auto;
     width: 240px;
     border: none;
     font-size: 1.5em;
     text-align: center;
-    margin-left: 535px;
     border-radius: 10px 0px 10px 0px;
     color: white;
 }

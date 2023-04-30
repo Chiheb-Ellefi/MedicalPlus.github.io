@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
         <section>
 
             <div class="container ">
-                <div class="bar ">
+                <div class="bar " class="scrolling-wrapper">
                     <ul>
                         <li><button id="all" onclick="btnscolor(this.id) ">All</button></li>
                         <li><button id="gen " onclick="btnscolor(this.id) ">General</button></li>
@@ -79,7 +79,7 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
                         <div class="card ">
@@ -105,10 +105,9 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton1" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
-
 
                     </div>
                     <div class="two">
@@ -135,7 +134,7 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton2" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
                         <div class="card ">
@@ -161,10 +160,9 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton3" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
-
 
                     </div>
                     <div class="two">
@@ -191,7 +189,7 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton4" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
                         <div class="card ">
@@ -217,10 +215,9 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton5" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
-
 
                     </div>
                     <div class="two">
@@ -247,7 +244,7 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton6" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
                         <div class="card ">
@@ -273,10 +270,9 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton7" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
-
 
                     </div>
                     <div class="two">
@@ -303,7 +299,7 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton8" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
                         <div class="card ">
@@ -329,68 +325,12 @@
                                 <p class="time ">12:00 AM tomorrow</p>
 
                             </div>
-                            <button id="myButton9" onclick="clickable(this.id)" class="book ">Book Now</button>
+                            <div class="btn"><button id="myButton" onclick="clickable(this.id)" class="book ">Book Now</button></div>
 
                         </div>
-
 
                     </div>
-                    <div class="two">
-                        <div class="card ">
-                            <div class="id ">
-                                <img src="../assets/doc4.png " alt=" ">
-                                <div class="text ">
-                                    <div class="name ">Dr.BenHassena</div>
-                                    <div class="job ">Specialist Dentist</div>
-                                    <div class="experience ">8 years experience</div>
-                                    <div class="numbers ">
-                                        <div class="chart "><svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 "><path fill="#246bfd " d="M4 20V9h4v11H4Zm6 0V4h4v16h-4Zm6 0v-7h4v7h-4Z "/></svg>59%</div>
-                                        <div class="story "><svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 "><path fill="#246bfd " d="m19 1l-5 5v11l5-4.5V1zM1 6v14.65c0 .25.25.5.5.5c.1 0 .15-.05.25-.05C3.1 20.45 5.05
-                                20 6.5 20c1.95 0 4.05.4 5.5 1.5V6c-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6zm22 13.5V6c-.6-.45-1.25-.75-2-1v13.5c-1.1-.35-2.3-.5-3.5-.5c-1.7 0-4.15.65-5.5 1.5v2c1.35-.85 3.8-1.5 5.5-1.5c1.65 0 3.35.3 4.75 1.05c.1.05.15.05.25.05c.25
-                                0 .5-.25.5-.5v-1.1z "/></svg>62 Patient Stories
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fav "><svg id="favo " onclick="svgcolor(this.id) " xmlns="http://www.w3.org/2000/svg " width="30 " height="30 " viewBox="0 0 24 24 "><path fill="currentColor " d="M13.35 20.13c-.76.69-1.93.69-2.69-.01l-.11-.1C5.3
-                                15.27 1.87 12.16 2 8.28c.06-1.7.93-3.33 2.34-4.29c2.64-1.8 5.9-.96 7.66 1.1c1.76-2.06 5.02-2.91 7.66-1.1c1.41.96 2.28 2.59 2.34 4.29c.14 3.88-3.3 6.99-8.55 11.76l-.1.09z "/></svg></div>
-                            </div>
-                            <div class="available ">
-                                <p class="next ">Next Available</p>
-                                <p class="time ">12:00 AM tomorrow</p>
 
-                            </div>
-                            <button id="myButton10" onclick="clickable(this.id)" class="book ">Book Now</button>
-
-                        </div>
-                        <div class="card ">
-                            <div class="id ">
-                                <img src="../assets/doc4.png " alt=" ">
-                                <div class="text ">
-                                    <div class="name ">Dr.BenHassena</div>
-                                    <div class="job ">Specialist Dentist</div>
-                                    <div class="experience ">8 years experience</div>
-                                    <div class="numbers ">
-                                        <div class="chart "><svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 "><path fill="#246bfd " d="M4 20V9h4v11H4Zm6 0V4h4v16h-4Zm6 0v-7h4v7h-4Z "/></svg>59%</div>
-                                        <div class="story "><svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 "><path fill="#246bfd " d="m19 1l-5 5v11l5-4.5V1zM1 6v14.65c0 .25.25.5.5.5c.1 0 .15-.05.25-.05C3.1 20.45 5.05
-                                20 6.5 20c1.95 0 4.05.4 5.5 1.5V6c-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6zm22 13.5V6c-.6-.45-1.25-.75-2-1v13.5c-1.1-.35-2.3-.5-3.5-.5c-1.7 0-4.15.65-5.5 1.5v2c1.35-.85 3.8-1.5 5.5-1.5c1.65 0 3.35.3 4.75 1.05c.1.05.15.05.25.05c.25
-                                0 .5-.25.5-.5v-1.1z "/></svg>62 Patient Stories
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fav "><svg id="favo " onclick="svgcolor(this.id) " xmlns="http://www.w3.org/2000/svg " width="30 " height="30 " viewBox="0 0 24 24 "><path fill="currentColor " d="M13.35 20.13c-.76.69-1.93.69-2.69-.01l-.11-.1C5.3
-                                15.27 1.87 12.16 2 8.28c.06-1.7.93-3.33 2.34-4.29c2.64-1.8 5.9-.96 7.66 1.1c1.76-2.06 5.02-2.91 7.66-1.1c1.41.96 2.28 2.59 2.34 4.29c.14 3.88-3.3 6.99-8.55 11.76l-.1.09z "/></svg></div>
-                            </div>
-                            <div class="available ">
-                                <p class="next ">Next Available</p>
-                                <p class="time ">12:00 AM tomorrow</p>
-
-                            </div>
-                            <button id="myButton11" onclick="clickable(this.id)" class="book ">Book Now</button>
-
-                        </div>
-
-
-                    </div>
                 </div>
             </div>
         </section>
